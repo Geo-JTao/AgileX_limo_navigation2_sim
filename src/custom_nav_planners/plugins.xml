@@ -1,0 +1,8 @@
+<library path="custom_nav_planners">
+  <class name="CustomGlobalPlanner" type="custom_nav_planners::CustomGlobalPlanner" base_class_type="nav2_core::GlobalPlanner">
+    <description>Custom Global Planner for Nav2</description>
+  </class>
+  <class name="CustomLocalPlanner" type="custom_nav_planners::CustomLocalPlanner" base_class_type="nav2_core::Controller">
+    <description>Custom Local Planner for Nav2</description>
+  </class>
+</library>
